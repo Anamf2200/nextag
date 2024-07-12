@@ -1,0 +1,344 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+
+
+}
+
+.custom-header {
+  
+  position: relative;
+  font-size: 4rem;
+  /* background-position: fill; */
+
+
+}
+
+.custom-header i {
+  font-size: 30px;
+  margin-right: 2px;
+}
+
+.custom-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  border-radius: 0%;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  color: black !important;
+
+}
+
+.custom-input::placeholder {
+  color: #000000;
+  text-align: center;
+}
+.custom-nav {
+  background: rgb(237, 237, 237, .1);
+  backdrop-filter: blur(10px);
+  font-size: 1rem;
+  justify-content: center;
+  color: #fbfbfb;
+}
+.custom-ul a {
+  color: white;
+}
+.Slider-h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: rgb(235, 234, 234);
+}
+.h-1 {
+  text-align: center;
+}
+
+/* footerrrr */
+
+
+footer {
+  background: rgb(237, 237, 237, .1);
+  backdrop-filter: blur(10px);
+
+  color: #000000;
+  padding: 20px;
+}
+
+.footer-column {
+
+  width: 33%;
+  /* Adjust width as needed */
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 20px;
+}
+
+.footer-column h3 {
+  font-size: 20px;
+}
+
+.footer-column p {
+  font-size: 14px;
+}
+
+.footer-column a {
+  padding: 10px;
+}
+
+
+.footer-column a:hover {
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+
+}
+
+
+
+.custom-div {
+
+  margin-top: 10px;
+  margin-bottom: 20PX;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  height: 400PX;
+}
+
+.div-1 i {
+  /* old margin 20 thi */
+  margin-top: 30PX; 
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.div-1 h2{
+  letter-spacing: 6px;
+  font-weight: lighter;
+}
+
+.div-1 p {
+  text-align: center;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  color: #000000;
+  font-weight: 20px;
+}
+.about-h{
+  text-align: center;
+  border-bottom: 2px solid black;
+  letter-spacing: 8px;
+}
+
+.msg {
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  height: 500px;
+
+}
+
+.msg h1 {
+  font-weight: lighter;
+  letter-spacing: 4px;
+  margin-top: 20px;
+}
+
+.msg div {
+  width: 600px;
+}
+
+.c-form {
+  border: 1px rgb(253, 253, 253);
+  height: 450px;
+}
+
+.c-form h1 {
+  font-weight: lighter;
+  letter-spacing: 4px;
+  margin-top: 20px;
+}
+
+.c-form .input-box input {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  box-shadow: 10px 5px 10px #5f5c5c;
+  background-color: transparent;
+
+
+}
+
+.c-form .input-box-1 input {
+  width: 100%;
+  height: 160px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: none;
+  box-shadow: 10px 5px 20px #292929;
+  outline: none;
+}
+.c-form .input-box-1 input::placeholder{
+  text-align: center;
+  color: #000000;
+}
+.c-form .input-box input::placeholder{
+  text-align: center;
+  color: #000000;
+}
+.button-a button {
+  width: 60%;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  letter-spacing: 2px;
+  box-shadow: 10px 5px 20px #292929;
+  background-color: transparent;
+}
+
+button:hover {
+  background-color: #000000;
+  color: white;
+  transition: 0.4s ease-in-out;
+
+}
+
+
+/* contact us page CSS */
+
+
+
+.banner-contect{
+  position:absolute;
+  margin-top: 11%;
+  width: 99%;
+  height: 500px;
+}
+.banner-h1{
+  text-align: center;
+  font-weight: 20px;
+  border-bottom: 2px solid black;
+  letter-spacing: 8px;
+}
+
+.contact-us {
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  height: 520px;
+
+}
+
+.contact-us h1 {
+  font-weight: lighter;
+  letter-spacing: 4px;
+  margin-top: 20px;
+}
+
+.contact-us div {
+  width: 600px;
+}
+
+.form-2 {
+  border: 1px white;
+  height: 450px;
+}
+
+.form-2 h1 {
+  color: #000000;
+  font-weight: lighter;
+  letter-spacing: 4px;
+  margin-top: 20px;
+}
+
+.form-2 .input-1 input {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 70%;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  border-radius: 20px;
+  background-color: transparent;
+
+  border: none;
+  outline: none;
+  box-shadow: 10px 5px 10px #242323;
+
+}
+.form-2 .input-1 input::placeholder{
+  color: #000000;
+  text-align: center;
+  background: transparent;
+  letter-spacing: 2px;
+  font-size: 17px;
+}
+.form-2 .input-2 input::placeholder{
+  color: #000000;
+  letter-spacing: 2px;
+  font-weight: 20px;
+  font-size: 17px;
+  text-align: center;
+  background: transparent;
+}
+
+.form-2 .input-2 input {
+  width: 70%;
+  height: 70px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-radius: 40px;
+  border: none;
+  box-shadow: 10px 5px 20px #292929;
+  outline: none;
+  background-color: transparent;
+}
+
+.details h1{
+
+  color: #000000;
+}
+.details p{
+  color: #000000;
+  text-align: center;
+  font-weight: 500;
+}
+
+.button-c button {
+  width: 30%;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  letter-spacing: 2px;
+  box-shadow: 10px 5px 20px #292929;
+  background-color: transparent;
+}
+
+button:hover {
+  background-color: #000000;
+  color: white;
+  transition: 0.4s ease-in-out;
+
+}
+.div-1 a{
+   color: black !important;
+   text-decoration: none;
+}
+.page-h1{
+  border-bottom: 2px solid black;
+  letter-spacing: 5px;
+}
